@@ -8,7 +8,8 @@
 
 import Foundation
 
-class Item {
+// item type can now encode itself into a plist or json
+class Item : Codable {
     var title : String = ""
     var done : Bool = false
 }
